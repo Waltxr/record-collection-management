@@ -1,0 +1,11 @@
+
+
+<%= form_for(@user) do |f| %>
+  <label>Username:</label><br>
+  <%= f.text_field :username %><br>
+
+  <label>Email</label><br>
+  <%= f.text_area :email %><br>
+
+  <%= f.submit %>
+<% end %>

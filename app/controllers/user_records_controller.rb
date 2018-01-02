@@ -30,7 +30,7 @@ class UserRecordController < ApplicationController
 
   private
 
-  def user_params
+  def user_record_params
     params.require(:user).permit()
   end
 end

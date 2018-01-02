@@ -1,0 +1,9 @@
+<%= form_for @record do |f| %>
+  <%= f.label :title  %> <br>
+  <%= f.text_field :title %> <br>
+  <%= f.label :genre %> <br>
+  <%= f.text_field :genre %> <br>
+  <%= f.label :release_date %> <br>
+  <%= f.date_field :release_date %> <br>
+  <%= f.submit %>
+<% end %>
